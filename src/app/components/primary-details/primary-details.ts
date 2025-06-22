@@ -5,7 +5,8 @@ import { MatIconModule } from '@angular/material/icon';
   selector: 'app-primary-details',
   imports: [MatIconModule],
   templateUrl: './primary-details.html',
-  styleUrl: './primary-details.scss'
+  styleUrls: ['./primary-details.scss']
+
 })
 export class PrimaryDetails {
 

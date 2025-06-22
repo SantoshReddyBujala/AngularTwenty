@@ -1,7 +1,25 @@
+@import "./assets/params.scss";
 /* Example CSS for cyan background and effect font color */
+
+.highlight_one {
+  color: chocolate !important;
+  font-weight: 500 !important;
+  font-size: 20px !important;
+}
+
+.highlight_two {
+  color: chocolate !important;
+  font-weight: 400 !important;
+  font-size: 18px !important;
+}
+
 .body-color {
-  background-color: #b6e6e2;
+  background-color: lightcyan;
   color: #d3d3d3;
   text-shadow: 2px 2px 4px #ffffff;
   height: 100%;
+}
+
+.mar-left {
+  margin-left: 20px;
 }
