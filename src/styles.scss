@@ -24,15 +24,15 @@ body {
 
 /* Highlight styles for special text */
 .highlight_one {
-  color: chocolate !important;
-  font-weight: 500 !important;
-  font-size: 20px !important;
+  color: $text-color;
+  font-weight: 500;
+  font-size: 20px;
 }
 
 .highlight_two {
-  color: chocolate !important;
-  font-weight: 400 !important;
-  font-size: 18px !important;
+  color: $text-color;
+  font-weight: 450;
+  font-size: 18px;
 }
 
 /* Body color utility with text shadow effect */
@@ -163,5 +163,5 @@ body {
   align-items: center;
 }
 .hr-style {
-  border: 2px solid chocolate;
+  border: 2px solid $text-color;
 }
