@@ -2,12 +2,10 @@ import { Component } from '@angular/core';
 import { MatIconModule } from '@angular/material/icon';
 
 @Component({
-  selector: 'app-primary-details',
+  selector: 'app-contact-social-details',
   imports: [MatIconModule],
-  templateUrl: './primary-details.html',
-  styleUrls: ['./primary-details.scss']
-
+  templateUrl: './contact-social-details.html',
 })
-export class PrimaryDetails {
+export class ContactSocialDetails {
 
 }
