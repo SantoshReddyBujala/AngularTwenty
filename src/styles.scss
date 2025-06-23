@@ -1,16 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
-@import "../public/assets/params.scss";
-/* Example CSS for cyan background and effect font color */
 
+// Import shared SCSS parameters
+@import "../public/assets/params.scss";
+
+/* 
+  Set base styles for html and body:
+  - 100% height for full viewport coverage
+  - Light cyan background
+  - Default font color
+*/
 html,
 body {
   height: 100%;
+  background-color: #b6e6e2;
+  color: #000000;
 }
+
+/* Set default body margin and font */
 body {
   margin: 0;
   font-family: Roboto, "Helvetica Neue", sans-serif;
 }
 
+/* Highlight styles for special text */
 .highlight_one {
   color: chocolate !important;
   font-weight: 500 !important;
@@ -23,6 +35,7 @@ body {
   font-size: 18px !important;
 }
 
+/* Body color utility with text shadow effect */
 .body-color {
   background-color: lightcyan;
   color: #d3d3d3;
@@ -30,6 +43,122 @@ body {
   height: 100%;
 }
 
-.mar-left {
+/* Margin utility classes for left spacing */
+.mar-left5 {
+  margin-left: 5px;
+}
+.margin-left8 {
+  margin-left: 8px;
+}
+.mar-left10 {
+  margin-left: 10px;
+}
+.mar-left15 {
+  margin-left: 15px;
+}
+.mar-left20 {
   margin-left: 20px;
+}
+
+/* Margin utility classes for top spacing */
+.mar-top5 {
+  margin-top: 5px;
+}
+.mar-top10 {
+  margin-top: 10px;
+}
+.mar-top15 {
+  margin-top: 15px;
+}
+.mar-top20 {
+  margin-top: 20px;
+}
+
+/* Margin utility classes for right spacing */
+.mar-right5 {
+  margin-right: 5px;
+}
+.mar-right10 {
+  margin-right: 10px;
+}
+.mar-right15 {
+  margin-right: 15px;
+}
+.mar-right20 {
+  margin-right: 20px;
+}
+
+/* Margin utility classes for bottom spacing */
+.mar-bottom5 {
+  margin-bottom: 5px;
+}
+.mar-bottom10 {
+  margin-bottom: 10px;
+}
+.mar-bottom15 {
+  margin-bottom: 15px;
+}
+.mar-bottom20 {
+  margin-bottom: 20px;
+}
+
+/* Padding utility classes for left spacing */
+.padding-left5 {
+  padding-left: 5px;
+}
+.padding-left10 {
+  padding-left: 10px;
+}
+.padding-left15 {
+  padding-left: 15px;
+}
+.padding-left20 {
+  padding-left: 20px;
+}
+
+/* Padding utility classes for top spacing */
+.padding-top5 {
+  padding-top: 5px;
+}
+.padding-top10 {
+  padding-top: 10px;
+}
+.padding-top15 {
+  padding-top: 15px;
+}
+.padding-top20 {
+  padding-top: 20px;
+}
+
+/* Padding utility classes for right spacing */
+.padding-right5 {
+  padding-right: 5px;
+}
+.padding-right10 {
+  padding-right: 10px;
+}
+.padding-right15 {
+  padding-right: 15px;
+}
+.padding-right20 {
+  padding-right: 20px;
+}
+
+/* Padding utility classes for bottom spacing */
+.padding-bottom5 {
+  padding-bottom: 5px;
+}
+.padding-bottom10 {
+  padding-bottom: 10px;
+}
+.padding-bottom15 {
+  padding-bottom: 15px;
+}
+.padding-bottom20 {
+  padding-bottom: 20px;
+}
+
+.align-items-center {
+  display: flex;
+  align-items: center;
 }
